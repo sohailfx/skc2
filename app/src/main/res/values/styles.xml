@@ -1,10 +1,107 @@
 <resources>
   <!-- Base application theme. -->
-  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+  <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
     <!-- Customize your theme here. -->
-    <item name="colorPrimary">@color/colorPrimary</item>
-    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-    <item name="colorAccent">@color/colorAccent</item>
+    <item name="colorPrimaryDark">@color/readOnlyColor</item>
+    <item name="colorPrimary">@color/themeColor</item>
+    <item name="colorAccent">@color/tealColor</item>
+    <item name="searchViewStyle">@style/MySearchViewStyle</item>
+    <item name="android:statusBarColor">@color/themeColor</item>
+  </style>
+  <style name="MySearchViewStyle" parent="Widget.AppCompat.Light.SearchView"></style>
+  <style name="Headline5Text">
+    <item name="android:textSize">24sp</item>
+    <item name="android:textColor">@color/colorPrimary</item>
+  </style>
+  <style name="Headline6Text">
+    <item name="android:textSize">18sp</item>
+    <item name="android:textColor">@color/colorPrimary</item>
+  </style>
+  <style name="Subtitle1Text">
+    <item name="android:textSize">16sp</item>
+    <item name="android:textColor">@color/colorPrimaryLight</item>
+  </style>
+  <style name="Subtitle2Text">
+    <item name="android:textSize">12sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">@color/colorPrimaryLight</item>
   </style>
 
+  <style name="Body1Text">
+    <item name="android:textSize">16sp</item>
+    <item name="android:textColor">@color/colorPrimaryLight</item>
+  </style>
+
+  <style name="Body2Text">
+    <item name="android:textSize">14sp</item>
+    <item name="android:textColor">@color/colorPrimaryLight</item>
+  </style>
+
+  <style name="CaptionText">
+    <item name="android:textSize">12sp</item>
+    <item name="android:textColor">@color/colorPrimaryLight</item>
+  </style>
+
+  <style name="AppTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+  <style name="FormLabelText">
+    <item name="android:textSize">14sp</item>
+    <item name="android:textColor">@color/themeColor</item>
+  </style>
+
+  <style name="FormContainerLabel">
+    <item name="android:textSize">16sp</item>
+    <item name="android:textColor">@color/colorPrimary</item>
+  </style>
+
+  <style name="FormValue">
+    <item name="android:textSize">16sp</item>
+    <item name="android:textColor">@color/colorPrimary</item>
+  </style>
+
+  <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    <item name="android:textColor">@color/blackColor</item>
+  </style>
+
+  <style name="ExpandedToolBarTitleTheme" parent="android:TextAppearance">
+    <item name="android:textColor">@color/blackColor</item>
+    <item name="android:textSize">32sp</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="CollapsedToolBarTitleTheme" parent="android:TextAppearance">
+    <item name="android:homeAsUpIndicator">@color/blackColor</item>
+    <item name="android:textColor">@color/blackColor</item>
+    <item name="android:textSize">20sp</item>
+  </style>
+
+  <style name="ExpandedToolBarTitleTheme2" parent="android:TextAppearance">
+    <item name="android:textColor">@color/blackColor</item>
+    <item name="android:textSize">32sp</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="CollapsedToolBarTitleTheme2" parent="android:TextAppearance">
+    <item name="android:homeAsUpIndicator">@color/blackColor</item>
+    <item name="android:textColor">@color/blackColor</item>
+    <item name="android:textSize">20sp</item>
+  </style>
+
+  <style name="MyThemeOverlay_Toolbar2" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">
+    <!-- This attributes is used by navigation icon and overflow icon -->
+    <item name="colorOnPrimary">@color/blackColor</item>
+    <item name="background">@drawable/thumb_nail_container</item>
+  </style>
+
+  <style name="ActionBarThemeOverlay">
+    <item name="android:textColorPrimary">@color/blackColor</item>
+    <item name="colorControlNormal">@color/blackColor</item>
+    <item name="colorControlHighlight">@color/blackColor</item>
+    <item name="android:textColorHint">@color/greyColor</item>
+  </style>
 </resources>

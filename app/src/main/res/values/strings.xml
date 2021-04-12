@@ -1,3 +1,9 @@
 <resources>
   <string name="app_name">skc2</string>
+  <string name="pallet">Pallet</string>
+  <string name="scrap">Scrap</string>
+  <string name="unloading">Un/Loading</string>
+  <string name="location">Location</string>
+  <string name="killrfid">Kill RFID</string>
+  <string name="locaterfid">Locate RFID</string>
 </resources>
